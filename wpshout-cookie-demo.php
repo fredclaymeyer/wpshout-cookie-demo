@@ -35,7 +35,7 @@ function wpcd_is_cookied() {
 }
 
 /*
-* Displying cookie value and form through shortcodes
+* Displaying cookie value and form through shortcodes
 */
 add_shortcode( 'cookie_demo', 'wpcd_show_cookie_result' );
 function wpcd_show_cookie_result() {
