@@ -9,7 +9,7 @@ Author URI: http://wpshout.com
 /*
 * Setting and retrieving cookie
 */
-add_action( 'init', 'wpcd_set_cookie' );
+add_action( 'init', 'wpcd_set_cookie', 1 );
 function wpcd_set_cookie() {
 	if(isset( $_POST[ 'fave_food' ] ) ) :
 		$cookie_value = sanitize_text_field( $_POST[ 'fave_food' ] );
@@ -17,6 +17,8 @@ function wpcd_set_cookie() {
 
 		// Now refresh so the header changes get captured
 		header("Refresh:0");
+
+		exit;
 	endif;
 }
 
