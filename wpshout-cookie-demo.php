@@ -50,7 +50,7 @@ add_shortcode( 'cookie_form', 'wpcd_show_cookie_form' );
 function wpcd_show_cookie_form() {
 	ob_start(); ?>
 		<form method="post">
-			<label for="name">Fave Food:<label><br><input type="text" name="fave_food" placeholder="Fave food?" />
+			<label for="name">Fave Food:<label><br><input type="text" name="fave_food" placeholder="Cookies" />
 			<p><input type="submit"></p>
 		</form>
 	<?php return ob_get_clean();
