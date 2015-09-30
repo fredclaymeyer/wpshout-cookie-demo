@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WPShout Cookie Demo
-Description: A demo of PHP session cookies in a WordPress environment.
+Description: A demo of PHP cookies in a WordPress environment.
 Author: WPShout
 Author URI: http://wpshout.com
 */
